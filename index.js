@@ -35,3 +35,8 @@ var a = document.getElementById("icon-sitereptile")
 a.setAttribute("data-toggle", "modal");
 a.setAttribute("data-target", "#sb");
 a.setAttribute("href", "#sb");
+var b = document.getElementById("item_sitereptile")
+b.setAttribute("data-toggle", "modal");
+b.setAttribute("data-target", "#sb");
+b.setAttribute("href", "#sb");
+b.setAttribute("ng-href","#sb");
