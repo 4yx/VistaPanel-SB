@@ -7,7 +7,7 @@ document.getElementsByTagName("footer")[0].innerHTML += `
         <h4 class="modal-title" id="myModalLabel">Entering SiteBuilder</h4>
       </div>
       <div class="modal-body">
-        <form method="POST" action="https://BuildALL.imloading.repl.co/main">
+        <form method="POST" action="https://api.buildall.ml/main">
   <label for="ftp_user">FTP Username:</label><br>
   <input class="form-control"  type="text" id="ftp_user" name="ftp_user" ><br>
   <label for="ftp_password">FTP Password:</label><br>
