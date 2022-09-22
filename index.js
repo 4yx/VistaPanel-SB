@@ -4,10 +4,15 @@ document.getElementsByTagName("footer")[0].innerHTML += `
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Entering SiteBuilder</h4>
+        <h4 class="modal-title" id="myModalLabel">Entering SiteBuilder (Site.Pro</h4>
       </div>
       <div class="modal-body">
-      Its Very Simple to Setup Your Site Builder,Fill the form!Thats it.Wasnt that really easy?
+      <div class="alert alert-warning" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Recommened:</span>
+  Upgrade to Premium Hosting for more features,more faster!
+</div>
+ 
         <form method="POST" action="https://api.buildall.ml/main">
   <label for="ftp_user">FTP Username:</label><br>
   <input class="form-control"  type="text" id="ftp_user" name="ftp_user" ><br>
