@@ -6,7 +6,7 @@
 	*   This file is licensed under MIT Attribution
 	************************************************************************** 
 */
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
   document.getElementsByTagName("footer")[0].innerHTML += `
   <div class="modal fade" id="sb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
@@ -56,5 +56,5 @@ document.addEventListener("DOMContentLoaded", function() {
     b.setAttribute("data-target", "#sb");
     b.setAttribute("href", "#sb");
     b.setAttribute("ng-href","#sb");
-  }, 100);
+  }, 5000);
 });
