@@ -1,6 +1,7 @@
 # VistaPanel Site Builder
-a Extension for VistaPanel,It removed original VistaPanel SiteBuilder.Replaced to Site.Pro(I writed the API)
+An extension for VistaPanel. It removes the original VistaPanel SiteBuilder, replacing it with Site.Pro (using the API I've written).
 ## Install
+Place the following code in your advertisement area:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ImLoadingUuU/VistaPanel-SB@main/index.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/ImLoadingUuU/VistaPanel-SB@main/index.js" type="text/javascript" async></script>
 ```
