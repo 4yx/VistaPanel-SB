@@ -1,3 +1,11 @@
+/*	**************************************************************************
+	*   @preserve
+	*   VistaPanel Add-on
+	*   Script Name:  VistaPanel-SB
+	*   Version: 1.0
+	*   This file is licensed under MIT Attribution
+	************************************************************************** 
+*/
 document.getElementsByTagName("footer")[0].innerHTML += `
 <div class="modal fade" id="sb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
