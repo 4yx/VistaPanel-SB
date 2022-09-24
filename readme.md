@@ -7,3 +7,4 @@ Place the following code in your advertisement area:
 ```
 - [x] API
 - [ ] API that return json not return page
+- [ ] Install Wizard (need JSON API)
