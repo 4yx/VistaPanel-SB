@@ -62,6 +62,7 @@ function sitebuilder() {
 		console.log("SiteBuilder Loaded")
 	} else {
 		setTimeout(sitebuilder, 100); //if not, re check every 100ms
+		console.log("Failed to Load SiteBuilder,Try again...")
 	}
 }
 
