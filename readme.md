@@ -5,6 +5,7 @@ Place the following code in your advertisement area:
 ```html
 <script src="https://cdn.jsdelivr.net/gh/ImLoadingUuU/VistaPanel-SB@main/index.js" type="text/javascript" async></script>
 ```
+## VP-SB-Server
 - [x] API
-- [ ] API that return json not return page
+- [x] API that return json not return page
 - [ ] Install Wizard (need JSON API)
